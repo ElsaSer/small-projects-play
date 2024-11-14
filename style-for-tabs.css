@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+  color: darkblue;
+}
+
+img {
+  display: block;
+}
+
+.section {
+  width: 1440px;
+  margin: 0 auto;
+  max-width: 1170px;
+  min-width: 340px;
+  padding: 80px 0;
+}
+
+.img{
+margin-bottom: 32px;
+}
+
+.tabs{
+    background-color: cadetblue;
+    border-radius: 8px;
+    grid-template-rows: auto 25%;
+}
+
+.btn-container{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button:nth-child(1){
+    border-top-left-radius: 8px;
+}
+
+.button:nth-child(3){
+    border-top-right-radius: 8px;
+}
+
+.button{
+    padding: 10px 0;
+    border: none;
+    font-size: 1rem;
+    background-color: cyan;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    letter-spacing: 0.25rem;
+}
